@@ -18,7 +18,9 @@
 				"desiredCapabilities.setCapability(\"deviceName\", \"&lt;DEVICE_IDENTIFIER&gt;\");",
 				"// ============== Initialize Driver =================",
 				"// TODO Provide your cloud's URL",
-				"RemoteWebDriver driver = new RemoteWebDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
+				"AppiumDriver driver = new AndroidDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
+				"// ============== OR =================",
+				"AppiumDriver driver = new IOSDriver(new URL(\"&lt;cloudURL&gt;\"), desiredCapabilities);"
 
 			],
 		"ruby" : [""],
